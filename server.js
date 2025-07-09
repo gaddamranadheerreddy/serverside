@@ -4,8 +4,11 @@ const fs = require('fs');
 const path = require('path');
 const mongoose = require('mongoose');
 
+require('dotenv').config();
+
 const app = express();
-const PORT = 5000;
+// const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const Contact = require('./models/Contact');
 
@@ -37,7 +40,7 @@ app.get('/api/pricing', (req, res) => {
 // });
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://admin:admin@cluster0.qwrf1wn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
