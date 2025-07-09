@@ -1,0 +1,17 @@
+[
+      {
+        "icon": "📊",
+        "title": "Live Insights",
+        "description": "Your KPIs, updated by the second."
+      },
+      {
+        "icon": "⚡",
+        "title": "Fast Setup",
+        "description": "Get started in minutes, not hours."
+      },
+      {
+        "icon": "🔒",
+        "title": "Secure by Design",
+        "description": "Built with security best practices from the ground up."
+      }
+    ]

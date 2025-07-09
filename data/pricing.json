@@ -1,0 +1,17 @@
+[
+    {
+        "tier": "Starter",
+        "price": "₹0",
+        "features": ["1 Dashboard", "Basic Alerts"]
+      },
+      {
+        "tier": "Pro",
+        "price": "₹499/mo",
+        "features": ["Unlimited Dashboards", "Advanced Analytics", "Email Support"]
+      },
+      {
+        "tier": "Enterprise",
+        "price": "₹1499/mo",
+        "features": ["Custom Solutions", "Dedicated Manager", "Priority Support"]
+      }
+]
